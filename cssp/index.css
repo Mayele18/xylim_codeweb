@@ -406,7 +406,7 @@ a{
 .ft4{
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-   
+    
 }
 
 
@@ -495,5 +495,63 @@ p{
     display: flex;
 }
 
+@media(max-width:400px)
+{
+       body{
+        width: 400px;
+       }
+       .dim img{
+        width: 400px;
+        height: 400px;
+       }
 
+       .dim{
+        margin-left: 2rem;
+       }
+          
+
+       .divbtn a{
+        font-size: 8px;
+        margin-left: 3rem;
+
+        
+    }
+
+    .divbtn{
+        height: 40px;
+    }
+           #xt{
+            font-size: 12px;
+            margin-left: 4px;
+           }
+}
+
+
+@media(max-width:400px)
+{
+       body{
+        width: 400px;
+       }
+       .dim img{
+        width: 400px;
+        height: 400px;
+       }
+
+       .dim{
+        margin-left: 2rem;
+       }
+          
+
+       .divbtn a{
+        font-size: 8px;
+        margin-left: 3rem;
+
+        
+    }
+
+           #xt{
+            font-size: 12px;
+            margin-left: 4px;
+           }
+}
 
