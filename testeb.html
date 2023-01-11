@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste bootstrap</title>
+    <link rel="stylesheet" href="testeb.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/IMG-20230103-WA0012.jpg" alt="img" width="200px" height="200px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+                </li>
+            </ul>
+             <div class="con">
+                <input type="text" name="ipt" id="idpt" placeholder="Pesquisar preços..." />
+                <div class="c1"><img src="img/lupa.png" alt="img" width="25px" height="25px"> </div>
+                <div class="cc"><a href="loja.html" target="_self"><img src="img/shopping-bag.png" alt="img" width="25px" height="25px"></a></div>
+             </div>
+        </div>
+    </nav>
+     
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="cd">
+      <div class="card"  style="width: 18rem; margin-left: 2rem;">
+        <img id="idm1" src="img/t1.jpg" class="card-img-top" alt="img" onclick="mudaft1('img/vt1.jpg')" ondblclick="mudaft1('img/t1.jpg')" onmouseover="mudaft1('img/vt1.jpg')" onmouseleave="mudaft1('img/t1.jpg')">
+        <div class="card-body">
+          <h5 class="card-title">Preco:8.000.00kzs</h5>
+          <a href="#" class="btn btn-dark"  onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+      </div>
+       
+      <div class="card" style="width: 18rem; margin-left: 2rem;">
+        <img src="img/imgp4.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:6.500.00kzs</h5>
+          <a href="#" class="btn btn-dark" onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+
+      </div><div class="card" style="width: 18rem; margin-left: 2rem;">
+        <img src="img/t3.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:5.000.00kzs</h5>
+          <a href="#" class="btn btn-dark"  onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+
+       </div><div class="card" style="width: 18rem; margin-left: 2rem;">
+        <img src="img/imgp5.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:10.000.00kzs</h5>
+          <a href="#" class="btn btn-dark"  onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+   
+      
+      </div><div class="card" style="width: 18rem; margin-left: 2rem;margin-top: 1rem;">
+        <img src="img/vn2.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:5.500.00kzs</h5>
+          <a href="#" class="btn btn-dark"  onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+
+      </div><div class="card" style="width: 18rem; margin-left: 2rem;margin-top: 1rem;">
+        <img src="img/vn3.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:10.000.00kzs</h5>
+          <a href="#" class="btn btn-dark"  onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+
+      </div><div class="card" style="width: 18rem; margin-left: 2rem;margin-top: 1rem;">
+        <img src="img/vn4.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:7.000.00kzs</h5>
+          <a href="#" class="btn btn-dark" onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+
+      </div><div class="card" style="width: 18rem; margin-left: 2rem;margin-top: 1rem;">
+        <img id="idm" src="img/tr.jpg" class="card-img-top" alt="img" onmouseover="mudaft('img/fd3.jpg')" onmouseleave="mudaft('img/tr.jpg')">
+        <div class="card-body">
+          <h5 class="card-title">Preco:10.000.00kzs</h5>
+          <a href="#" class="btn btn-dark" onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+
+      </div><div class="card" style="width: 18rem; margin-left: 2rem;margin-top: 1rem;">
+        <img src="img/vn6.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:6.000.00kzs</h5>
+          <a href="#" class="btn btn-dark" onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+
+      </div><div class="card" style="width: 18rem; margin-left: 2rem;margin-top: 1rem;">
+        <img src="img/vn7.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:13.000.00kzs</h5>
+          <a href="#" class="btn btn-dark" onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+
+      </div><div class="card" style="width: 18rem; margin-left: 2rem;margin-top: 1rem;">
+        <img src="img/vn9.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:9.000.00kzs</h5>
+          <a href="#" class="btn btn-dark" onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+
+      </div><div class="card" style="width: 18rem; margin-left: 2rem;margin-top: 1rem;">
+        <img id="idm" src="img/vn8.jpg" class="card-img-top" alt="img">
+        <div class="card-body">
+          <h5 class="card-title">Preco:6.000.00kzs</h5>
+          <a href="#" class="btn btn-dark" onclick="comprar()">Comprar</a>
+        </div>
+        <div class="card-footer text-muted">
+          Xylim: Atreva-te a ser diferente
+        </div>
+            
+      </div>
+     
+
+      
+      
+
+      
+    
+
+    <!--<div class="dropdown">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Dropdown link
+        </a>
+      
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </div>-->
+      
+
+      <footer class="foo">
+        <div class="corpof">
+          <div class="p2"><p>&copy;2023 Xylim,Todos os direitos reservados</p></div>
+          <div class="p3">
+              <a href="https://facebook.com/100081215757348"><img class="pi" src="img/facebook.png" alt="img" width="25px" height="25px"/></a>
+              <a href="https///instagram.com/Xylim.2022?igshid=YmMyMTA2M2Y="><img class="pi" src="img/instagram.png" alt="img" width="25px" height="25px"/></a>
+              <a href="#"><img class="pi" src="img/whatsapp.png" alt="img" width="25px" height="25px"/></a>
+           </div>
+        </div>
+    </footer>
+
+
+
+    
+     
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js2/t.js"></script>
+</body>
+</html>
