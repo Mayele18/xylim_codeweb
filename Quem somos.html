@@ -6,12 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem somos</title>
     <link rel="stylesheet" href="cssp/Quem somos.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-    <header class="pri">
-        <div class="imag">
-            <a href="index.html" target="_self"><img src="img/IMG-20230103-WA0012.jpg" alt="img" width="200px" height="200px"></a>
+
+
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="img/IMG-20230103-WA0012.jpg" alt="img" width="200px" height="200px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Quem somos.html">Sobre</a>
+                </li>
+            </ul>
+             <div class="con">
+                <input type="text" name="ipt" id="idpt" placeholder="Pesquisar preços..." />
+                <div class="c1"><img src="img/lupa.png" alt="img" width="25px" height="25px"> </div>
+                <div class="cc"><a href="loja.html" target="_self"><img src="img/shopping-bag.png" alt="img" width="25px" height="25px"></a></div>
+             </div>
         </div>
+      </nav>
+
+
+
+    <header class="pri">
         <div class="corpo">
             <div class="Q">
                 <p id="h1">Quem Somos</p><br>
@@ -23,7 +45,7 @@
                 <p>Não somos uma marca que todos querem mas somos a marca que <br>nosso amado precisa.</p><br>
                 <p><b> Mais do que uma marca somos um estilo de vida</b></p><br>
                 <p>Lançada oficialmente no dia <b> 22/08/2022.</b></p><br>
-                <p>Marcada criada por <b> Willtold William Francisco.</b></p>
+                <p>Marca criada por <b> Willtold William Francisco.</b></p>
             </div>
             <div class="im">
                 <img class="mg" src="img/InShot_20230108_000647548.jpg" alt="img" width="600px" height="600px">
@@ -49,16 +71,28 @@
         </div>
     </section>
 
-    <footer class="foo">
-        <div class="corpof">
-          
-          <div class="p2"><p>&copy;2023 Xylim,Todos os direitos reservados</p></div>
-          <div class="p3">
-              <a href="https://facebook.com/100081215757348"><img class="pi" src="img/facebook.png" alt="img" width="25px" height="25px"/></a>
-              <a href="https///instagram.com/Xylim.2022?igshid=YmMyMTA2M2Y="><img class="pi" src="img/instagram.png" alt="img" width="25px" height="25px"/></a>
-              <a href="#"><img class="pi" src="img/whatsapp.png" alt="img" width="25px" height="25px"/></a>
-           </div>
+   
+   
+   
+    <footer class="container">
+        <div class="row justify-content-center">
+            <div class="col-12 mb-3"><hr></div>
+            <div class="col-sm-4">
+                <h4 class="text-center">Visite-nos</h4>
+                <div class="btn-group-vertical btn-block w-100" role="group">
+                    <a href="https://facebook.com/100081215757348" class="btn btn-outline-primary">Facebook</a>
+                    <a href="#" class="btn btn-outline-info">Watsapp</a>
+                    <a href="https:///instagram.com/Xylim.2022?igshid=YmMyMTA2M2Y=" class="btn btn-outline-danger">Instagram</a>
+                </div>
+                <div class="col-12 mt-3">
+                    <p class="col-12 mt-3 text-center text-muted">
+                        Todos os direitos reservados &copy; - <script> document.write(new Date().getFullYear())</script> Xylim
+                    </p>
+                </div>
+            </div>
         </div>
-    </footer>
+       </footer>
+
+       <script src="js/bootstrap.min.js"></script>
 <body>
 </html>

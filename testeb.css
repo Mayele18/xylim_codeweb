@@ -1,8 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     box-sizing: border-box;
+    
 }
+
 :root{
     --var-black:#282828;
     --var-green:gray;
@@ -27,7 +29,7 @@
 }
 
 .con input{
-    width: 127px;
+    width: 126px;
     margin-right: 0.5rem;
 }
 
@@ -62,34 +64,19 @@
 
 
 
-/*seccao*/
-
-
 /*footer*/
-.foo{
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 6rem;
     background-color: #282828;
-    width: 100%;
-    height: 40%;
-    margin-top: 2rem;
-}
-
-.corpof{
-    display: flex;
-    flex-wrap: wrap;
-}
-.p2{
     color: white;
-    margin-top: 4rem;
-     margin-left: 34rem;
-}
-
-.p2{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.p3{
-    margin-left: 22rem;
+    font-size:18px ;
+    width: 100%;
     margin-top: 2rem;
-   
 }
+
+
+
+

@@ -65,283 +65,53 @@
 video{
     margin-bottom: 2rem;
 }
-/*footer*/
-.foo
-{
-    background-color: var(--var-black);
-    
+
+
+/*import*/
+.con{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 7.5rem;
 }
 
-.p2 p{
-    color: white;
-    
+.con input{
+    width: 126px;
+    margin-right: 0.5rem;
 }
 
-.p2{
+.c1{
+    margin-right: 0.7rem;
+}
+
+.cd{
+    display: flex;
+    flex-wrap: wrap; 
+}
+.cd1{
     display: flex;
     flex-wrap: wrap;
 }
 
-.corpof
-{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-.p2{
-    margin-left: 42%;
-    margin-top: 4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-}
-
-.p3{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 25%;
-    line-height: 2px;
-    margin-top: 1.5rem;
-}
-
-.pi{
-    margin: 0.5rem;
-}
-
-
-
-.cii{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.ci{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 34rem;
-}
-
-.cii p{
-    color: #282828;
-    font-weight: bold;
-}
-
-.ci p{
-    color: #282828;
-    font-weight: bold;
-    font-weight: 25px;
-}
-
-.g{
-    display: flex;
-}
 
 
 
 /*mediascreen*/
-  @media (max-width:1249px) {
-    .im{
-       width:500px;
-       height: 500px;
-    }
-    .cor{
-        margin-left: 2rem;
-    }
-    
-  }
-
-
-
-  @media (max-width:1120px) {
-    .mg{
-       width:500px;
-       height: 600px;
-    }
-    
-  }
-
-
-  @media (max-width:1038px) {
-    .mg{
-       width:400px;
-       height: 500px;
-    }
-    .cor{
-        margin-left: 2rem;
-    }
-    video{
-        margin-left: 4rem;
-        width: 700px;
-        height: 500px;
-    }
-    
-  }
-
-
-
-
-  @media (max-width:988px) {
-    .mg{
-       width:500px;
-       height: 500px;
-       margin-left: 3rem;
-    }
-   
-    .cps1 video{
+ @media(max-width:400px)
+ {
+      .mg{
         width: 400px;
         height: 400px;
-        margin-left: 17rem;
-    }
-    
-  }
+        display: flex;
+        flex-wrap: wrap;
+      }
 
-  @media (max-width:760px) {
-    .mg{
-       width:500px;
-       height: 500px;
-       margin-left: 3rem;
-    }
-   
-    .cps1 video{
-        width: 400px;
-        height: 400px;
-        margin-left: 9rem;
-    }
-    
-  }
+      .im img{
+        margin-left: 0.1rem;
+      }
 
-  @media(max-width:604){
-    .mg{
-        width:500px;
-        height: 500px;
-        margin-left: 3rem;
-     }
-    .cor{
-        margin-left:10rem;
-    }
-
-     
-  }
- 
-  @media (max-width:1190px) {
-    .cor{
-        margin-left: 3rem;
-    }
-
-    video{
-        margin-right: 4rem;
-        width: 700px;
-        height: 700px;
-    }
-     .p3{
-        margin-left: 1px;
-     }
-    }
-
-
-
-        @media (max-width:400px) {
-            body{
-                width: 400px;
-            }
-            .mg{
-                width: 400px;
-                height: 400px;
-                margin-left: 1rem;
-            }
-           .cps1 video{
-               width: 300px;
-               height: 200px;
-               margin-left: 1rem;
-            }
-
-            #h2{
-                margin-right: 1rem;
-            }
-
-            #xii p{
-                margin-right: 3rem;
-            }
-
-            #xi p{
-                margin-left: 3rem;
-            }
-            .p2{
-                margin-left: 0.5rem;
-            }
-            .p3{
-                margin-left: 0.2rem;
-            }
-
-            .Q p{
-                margin-right: 1rem;
-            }
-           }
-
-           @media (max-width:383px) {
-              body{
-                width: 387px;
-              }
-
-              .cps1 video{
-                width: 250px;
-                height: 200px;
-                margin-left: 1rem;
-             }
-             .tv{
-                margin-right: 2rem;
-             }
-            }
-
-            @media (max-width:415px) {
-                body{
-                    width: 415px;
-                }
-                .mg{
-                    width: 400px;
-                    height: 400px;
-                    margin-left: 1rem;
-                }
-               .cps1 video{
-                   width: 300px;
-                   height: 200px;
-                   margin-left: 1rem;
-                }
-    
-                #h2{
-                    margin-right: 1rem;
-                }
-    
-                #xii p{
-                    margin-right: 3rem;
-                }
-    
-                #xi p{
-                    margin-left: 3rem;
-                }
-                .p2{
-                    margin-left: 0.5rem;
-                }
-                .p3{
-                    margin-left: 0.2rem;
-                }
-    
-                .Q p{
-                    margin-right: 1rem;
-                }
-               }
-    
-
-
-
-           
-
-
-
-            
- 
-
-
-
-
-
+      .cps1 video{
+        width: 300px;
+        height: 200px;
+        margin-left: 0.9rem;
+      }
+ }
